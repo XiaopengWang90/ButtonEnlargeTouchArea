@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18667B3C20CA482100874904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18667B3B20CA482100874904 /* AppDelegate.m */; };
+		18667B3F20CA482100874904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18667B3E20CA482100874904 /* ViewController.m */; };
+		18667B4220CA482100874904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18667B4020CA482100874904 /* Main.storyboard */; };
+		18667B4420CA482700874904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18667B4320CA482700874904 /* Assets.xcassets */; };
+		18667B4720CA482700874904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18667B4520CA482700874904 /* LaunchScreen.storyboard */; };
+		18667B4A20CA482700874904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18667B4920CA482700874904 /* main.m */; };
+		18667B5420CA482800874904 /* BtnClickDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18667B5320CA482800874904 /* BtnClickDemoTests.m */; };
+		18667B6320CA55D900874904 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18667B6220CA55D900874904 /* UIButton+EnlargeTouchArea.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18667B5020CA482800874904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18667B2F20CA482100874904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18667B3620CA482100874904;
+			remoteInfo = BtnClickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18667B3720CA482100874904 /* BtnClickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtnClickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18667B3A20CA482100874904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18667B3B20CA482100874904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18667B3D20CA482100874904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18667B3E20CA482100874904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18667B4120CA482100874904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18667B4320CA482700874904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18667B4620CA482700874904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18667B4820CA482700874904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18667B4920CA482700874904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18667B4F20CA482800874904 /* BtnClickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtnClickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18667B5320CA482800874904 /* BtnClickDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BtnClickDemoTests.m; sourceTree = "<group>"; };
+		18667B5520CA482800874904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18667B6120CA55D900874904 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		18667B6220CA55D900874904 /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18667B3420CA482100874904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667B4C20CA482800874904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18667B2E20CA482100874904 = {
+			isa = PBXGroup;
+			children = (
+				18667B3920CA482100874904 /* BtnClickDemo */,
+				18667B5220CA482800874904 /* BtnClickDemoTests */,
+				18667B3820CA482100874904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18667B3820CA482100874904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18667B3720CA482100874904 /* BtnClickDemo.app */,
+				18667B4F20CA482800874904 /* BtnClickDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18667B3920CA482100874904 /* BtnClickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18667B3A20CA482100874904 /* AppDelegate.h */,
+				18667B3B20CA482100874904 /* AppDelegate.m */,
+				18667B3D20CA482100874904 /* ViewController.h */,
+				18667B3E20CA482100874904 /* ViewController.m */,
+				18667B4020CA482100874904 /* Main.storyboard */,
+				18667B4320CA482700874904 /* Assets.xcassets */,
+				18667B4520CA482700874904 /* LaunchScreen.storyboard */,
+				18667B4820CA482700874904 /* Info.plist */,
+				18667B4920CA482700874904 /* main.m */,
+				18667B6120CA55D900874904 /* UIButton+EnlargeTouchArea.h */,
+				18667B6220CA55D900874904 /* UIButton+EnlargeTouchArea.m */,
+			);
+			path = BtnClickDemo;
+			sourceTree = "<group>";
+		};
+		18667B5220CA482800874904 /* BtnClickDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18667B5320CA482800874904 /* BtnClickDemoTests.m */,
+				18667B5520CA482800874904 /* Info.plist */,
+			);
+			path = BtnClickDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18667B3620CA482100874904 /* BtnClickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18667B5820CA482800874904 /* Build configuration list for PBXNativeTarget "BtnClickDemo" */;
+			buildPhases = (
+				18667B3320CA482100874904 /* Sources */,
+				18667B3420CA482100874904 /* Frameworks */,
+				18667B3520CA482100874904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BtnClickDemo;
+			productName = BtnClickDemo;
+			productReference = 18667B3720CA482100874904 /* BtnClickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18667B4E20CA482800874904 /* BtnClickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18667B5B20CA482800874904 /* Build configuration list for PBXNativeTarget "BtnClickDemoTests" */;
+			buildPhases = (
+				18667B4B20CA482800874904 /* Sources */,
+				18667B4C20CA482800874904 /* Frameworks */,
+				18667B4D20CA482800874904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18667B5120CA482800874904 /* PBXTargetDependency */,
+			);
+			name = BtnClickDemoTests;
+			productName = BtnClickDemoTests;
+			productReference = 18667B4F20CA482800874904 /* BtnClickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18667B2F20CA482100874904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18667B3620CA482100874904 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					18667B4E20CA482800874904 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 18667B3620CA482100874904;
+					};
+				};
+			};
+			buildConfigurationList = 18667B3220CA482100874904 /* Build configuration list for PBXProject "BtnClickDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18667B2E20CA482100874904;
+			productRefGroup = 18667B3820CA482100874904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18667B3620CA482100874904 /* BtnClickDemo */,
+				18667B4E20CA482800874904 /* BtnClickDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18667B3520CA482100874904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667B4720CA482700874904 /* LaunchScreen.storyboard in Resources */,
+				18667B4420CA482700874904 /* Assets.xcassets in Resources */,
+				18667B4220CA482100874904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667B4D20CA482800874904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18667B3320CA482100874904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667B3F20CA482100874904 /* ViewController.m in Sources */,
+				18667B4A20CA482700874904 /* main.m in Sources */,
+				18667B6320CA55D900874904 /* UIButton+EnlargeTouchArea.m in Sources */,
+				18667B3C20CA482100874904 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18667B4B20CA482800874904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18667B5420CA482800874904 /* BtnClickDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18667B5120CA482800874904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18667B3620CA482100874904 /* BtnClickDemo */;
+			targetProxy = 18667B5020CA482800874904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18667B4020CA482100874904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18667B4120CA482100874904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18667B4520CA482700874904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18667B4620CA482700874904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18667B5620CA482800874904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18667B5720CA482800874904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18667B5920CA482800874904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R39SAJM4HN;
+				INFOPLIST_FILE = BtnClickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BtnClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18667B5A20CA482800874904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R39SAJM4HN;
+				INFOPLIST_FILE = BtnClickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BtnClickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18667B5C20CA482800874904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BtnClickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BtnClickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtnClickDemo.app/BtnClickDemo";
+			};
+			name = Debug;
+		};
+		18667B5D20CA482800874904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BtnClickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zly.BtnClickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BtnClickDemo.app/BtnClickDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18667B3220CA482100874904 /* Build configuration list for PBXProject "BtnClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667B5620CA482800874904 /* Debug */,
+				18667B5720CA482800874904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18667B5820CA482800874904 /* Build configuration list for PBXNativeTarget "BtnClickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667B5920CA482800874904 /* Debug */,
+				18667B5A20CA482800874904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18667B5B20CA482800874904 /* Build configuration list for PBXNativeTarget "BtnClickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18667B5C20CA482800874904 /* Debug */,
+				18667B5D20CA482800874904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18667B2F20CA482100874904 /* Project object */;
+}
